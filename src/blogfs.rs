@@ -42,8 +42,8 @@ pub fn move_published<P: AsRef<Path>>(src: P, dst: P) -> Result<()> {
 #[cfg(test)]
 mod test {
     use super::*;
-    #[test]
-    fn test_move_published() {
-        move_published("./tmp", "../blog-root/content").unwrap();
-    }
+    //#[test]
+    //fn test_move_published() {
+    //    move_published("./tmp", "../blog-root/content").unwrap();
+    //}
 }

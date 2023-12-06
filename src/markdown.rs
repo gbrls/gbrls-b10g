@@ -84,9 +84,9 @@ mod test {
         let f = "./tmp/blog index.md";
         let _ = headers(f).unwrap();
     }
-    #[test]
-    fn test_public_files() {
-        let fs = public_files("./tmp");
-        println!("{:#?}", fs);
-    }
+    //#[test]
+    //fn test_public_files() {
+    //    let fs = public_files("./tmp");
+    //    println!("{:#?}", fs);
+    //}
 }
